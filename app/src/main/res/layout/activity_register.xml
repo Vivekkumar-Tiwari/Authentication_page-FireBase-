@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/img_2"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".RegisterActivity">
+
+    <EditText
+        android:textSize="30dp"
+        android:layout_marginTop="120dp"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:textColorHint="#120808"
+        android:hint="Email:"
+        android:id="@+id/email"/>
+    <EditText
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:textColorHint="#120808"
+        android:hint="Password:"
+        android:id="@+id/pasword"/>
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:text="Register:"
+        android:id="@+id/register2"/>
+
+
+</LinearLayout>
